@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+      
+}
+
+body{
+    background-color: white;
+    font-family: Lexend Deca, sans-serif; 
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+}
+.container{
+    background-color: hsl(233, 47%, 7%);
+    width: 700px;
+    height: 400px;
+    padding: 50px 40px;
+    display: flex;
+    align-content: center; 
+    justify-content: center;
+    margin-top: 100px;
+} 
+
+.left{
+    background-color: hsl(244, 38%, 16%);
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    border-radius: 10px 0px 0px 10px;
+    height: 300px;
+}
+.insight h2{
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 20px;
+}
+.insight span{
+    color: hsl(277, 64%, 61%);
+}
+
+.left p{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 11px;
+    margin-bottom: 20px;
+}
+.digits{
+    display: flex;
+    justify-content: space-between;
+}
+
+.companies b{
+    color:hsl(0, 0%, 100%) ;
+}
+.companies p{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 9px;
+}
+
+.templates b{
+    color:hsl(0, 0%, 100%)
+}
+
+.templates p{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 9px;
+}
+
+.queries b{
+    color:hsl(0, 0%, 100%)
+}
+
+.queries p{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 9px;
+}
+
+img{
+    border-radius: 0px 10px 10px 0px;
+}

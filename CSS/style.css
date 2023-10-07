@@ -1,0 +1,154 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: hanken Grotesk, sans-serif;
+}
+
+body{
+    background-color: hsl(221, 100%, 96%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p{
+    font-size: 18px;
+}
+
+.container{
+    margin-top: 100px;
+    box-shadow: hsl(241, 81%, 54%);
+    border-radius: 20px;
+    width: 600px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Result{
+    padding: 20px;
+    width: 50%;
+    height: 200%;
+    background-color: hsl(252, 100%, 67%);
+    border-radius: 20px;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+h3{
+    color: hsl(241, 100%, 89%);
+    margin-bottom: 100px;
+}
+
+.Result .circle{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-color: hsla(256, 72%, 46%, 1);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}   
+
+.circle h2{
+    color: white;
+    font-size:64px ;
+}
+
+.circle p{
+    color:hsl(241, 100%, 89%);
+}
+
+.great{
+    color:white;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+
+.info{
+    color: hsl(241, 100%, 89%);
+    font-size: 18px;
+
+}
+
+.summary{
+padding: 20px 30px;
+display: flex;
+flex-direction: column;
+gap: 20cm;
+}
+
+.summary h3{
+    color: black;
+    font-weight: 700;
+}
+
+.all-rows{
+    display: flex;
+    flex-direction: column;
+    gap: 20cm;
+}
+
+#row{
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    justify-content: space-between;
+    padding: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+#row:nth-child(1){
+    background-color: hsl(0, 100%, 67%,.2);
+}
+#row:nth-child(1) .badge b{
+    color: hsl(0, 100%, 67%);
+}
+
+#row:nth-child(2){
+    background-color: hsl(39, 100%, 56%,.2);
+}
+#row:nth-child(2) .badge b{
+    color: hsl(39, 100%, 56%);
+}
+
+#row:nth-child(3){
+    background-color: hsl(166, 100%, 37%,.2);
+}
+#row:nth-child(3) .badge b{
+    color: hsl(166, 100%, 37%);
+}
+
+#row:nth-child(4){
+    background-color:  hsl(234, 85%, 45%,.2);
+}
+#row:nth-child(4) .badge b{
+    color:  hsl(234, 85%, 45%);
+}
+
+#row p{
+    color: grey;
+}
+
+#row p b{
+color:hsl(224, 30%, 27%) ;
+}
+
+.btn{
+    border: none;
+   border-radius: 17px;
+    padding: 10px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    background-color:hsl(224, 30%, 27%) ;
+    color:hsl(241, 100%, 89%) ;
+    font-weight: 700;
+    
+}

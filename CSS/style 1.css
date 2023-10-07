@@ -1,0 +1,156 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Customfont', sans-serif;
+}
+body{
+    background-color: hsl(221, 100%, 96%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+.container{
+    border-radius: 10px;
+    background-color: white;
+    box-shadow:10px 10px 10px  hsla(252, 100%, 67%,.3);
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+}
+.Result{
+    width: 250px;
+    border-radius: 10px;
+    background-color: hsl(252, 100%, 67%);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 30px;
+}
+.Result h4{
+    margin-bottom: 20px;
+    color: hsl(241, 100%, 89%);
+}
+
+.circle{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: hsla(256, 72%, 46%, 1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 15px;
+}
+.circle h2{
+    color: white;
+    font-size: 30px;
+}
+.circle p{
+    color: hsl(241, 100%, 89%);
+}
+.great{
+    padding-bottom: 5px;
+    padding-top: 5px;
+    color: white;
+    font-weight: 500;
+}
+
+.info{
+    color:hsl(241, 100%, 89%) ;
+    font-size: 18px;
+    padding-top: 10px;
+}
+
+.summary{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+.summary h4{
+    color: black;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+#all-rows{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+#row1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: hsla(0, 100%, 67%,.1)
+}
+.badge{
+    display: flex;
+}
+
+
+.badge b{
+    color: hsl(0, 100%, 67%);
+    margin-left: 10px;
+}
+.row2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: hsla(39, 100%, 56%,.1);
+}
+.row2 .badge b{
+    color: hsl(39, 100%, 56%);
+    margin-left: 10px;
+}
+.row3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: hsla(166, 100%, 37%,.1);
+}
+.row3 .badge b{
+    color: hsl(166, 100%, 37%);
+    margin-left: 10px;
+}
+.row4{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: hsla(234, 85%, 45%,.1);
+}
+
+.row4 .badge b{
+    color: hsl(234, 85%, 45%);
+    margin-left: 10px;
+}
+.score{
+    margin-left: 100px;
+    display: flex;
+    color: grey;
+}
+
+.score b{
+    color:  hsl(224, 30%, 27%);
+    font-weight: 700;
+}
+
+button{
+    margin-top: 30px;
+    border: none;
+    border-radius: 30px;
+    padding: 10px;
+    background-color:  hsl(224, 30%, 27%);
+    color: white;
+    cursor: pointer;
+}

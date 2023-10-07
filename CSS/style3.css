@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: montserrat;
+    src: url('../ASSETS/Montserrat/Montserrat-VariableFont_wght.ttf');
+}
+
+body{
+    background-color: hsl(30, 38%, 92%);
+    font-family: montserrat;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section{
+    display: flex;
+    width: 480px;
+    height: 400px;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.img-container img{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+
+}
+
+.card{
+    padding: 20px;
+    
+}
+
+.card .perf{
+    color:  hsl(228, 12%, 48%);
+    font-size: 14px;
+
+}
+h2{
+    color:  hsl(212, 21%, 14%);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+p{
+    color: hsl(228, 12%, 48%);
+    font-size: 14px;
+    line-height: 20px;
+}
+.price{
+    margin-top: 20px;
+    display: flex;
+    
+}
+h1{
+    color: hsl(158, 36%, 37%);
+    font-weight: 700;
+}
+.price p{
+    margin-left: 20px;
+    font-size: 14px;
+    font-family: montserrat;
+    font-weight: 900;
+    text-decoration: line-through;
+    color: hsl(228, 12%, 48%);
+
+}
+
+.cart{
+    display: flex;
+    background-color: hsl(158, 36%, 37%);
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+}
+
+.cart p{
+    color: white;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 400;
+}
